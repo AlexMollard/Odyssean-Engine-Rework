@@ -1,0 +1,24 @@
+# Ignore build and output directories
+build/
+bin/
+out/
+Debug/
+Release/
+CMakeFiles/
+CMakeScripts/
+cmake-build-debug/
+cmake-build-release/
+CMakeCache.txt
+
+# Ignore CLion settings
+.idea/
+
+# Ignore executables and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore generated files
+CMakeLists.txt.user
+compile_commands.json
